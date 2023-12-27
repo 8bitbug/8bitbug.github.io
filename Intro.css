@@ -31,8 +31,9 @@ body {
 
 #anmn-a {
     background-color: white;
-    height: 60px;
-    width: 258px;
+    height: 61px;
+    width: 248px;
+    z-index: 1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -43,8 +44,9 @@ body {
 
 #anmn-a::before {
     content: "";
-    height: 60px;
-    width: 258px;
+    height: 61px;
+    width: 248px;
+    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -60,8 +62,9 @@ body {
 
 #anmn-a::after {
     background-color: white;
-    height: 60px;
-    width: 258px;
+    height: 61px;
+    width: 248px;
+    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -80,6 +83,14 @@ body {
     animation-play-state: running;
 }
 
+#anmn-a:hover {
+    animation-play-state: running;
+}
+
+#anmn-a:hover + #more-info {
+    animation-play-state: running;
+}
+
 #more-info:hover + #anmn-a {
     animation-play-state: running;
 }
@@ -95,7 +106,7 @@ body {
     70% {width: 100px;}
     80% {width: 150px;}
     90% {width: 200px;}
-    100% {width: 258px;}
+    100% {width: 248px;}
 }
 
 @keyframes h1color {
