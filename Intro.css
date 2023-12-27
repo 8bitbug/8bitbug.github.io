@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-.more-info {
+#more-info {
     font-size: 50px;
     color: white;
     border: 2px white solid;
@@ -44,7 +44,7 @@ body {
 
 #anmn-a::before {
     content: "";
-    height: 61px;
+    height: 63px;
     width: 240px;
     z-index: -1;
     position: absolute;
@@ -52,7 +52,7 @@ body {
     bottom: 202px;
 }
 
-.more-info::before {
+#more-info::before {
     content: "";
     font-size: 50px;
     position: absolute;
@@ -62,7 +62,7 @@ body {
 
 #anmn-a::after {
     background-color: white;
-    height: 61px;
+    height: 63px;
     width: 240px;
     z-index: -1;
     position: absolute;
@@ -70,7 +70,7 @@ body {
     bottom: 202px;
 }
 
-.more-info::after {
+#more-info::after {
     font-size: 50px;
     color: black;
     z-index: 1;
@@ -79,7 +79,7 @@ body {
     bottom: 202px;
 }
 
-.more-info:hover {
+#more-info:hover {
     animation-play-state: running;
 }
 
@@ -87,11 +87,11 @@ body {
     animation-play-state: running;
 }
 
-#anmn-a:hover + .more-info {
+#anmn-a:hover + #more-info {
     animation-play-state: running;
 }
 
-.more-info:hover + #anmn-a {
+#more-info:hover + #anmn-a {
     animation-play-state: running;
 }
 
