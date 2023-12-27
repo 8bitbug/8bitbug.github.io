@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
     z-index: -100;
@@ -6,11 +11,12 @@ body {
 .more-info {
     font-size: 50px;
     color: white;
+    border: 2px solid white;
+    display: inline;
     z-index: 1;
     position: absolute;
     left: 102px;
     bottom: 202px;
-    margin: 0;
     animation-name: h1color;
     animation-play-state: paused;
     animation-duration: 2s;
@@ -43,6 +49,7 @@ body {
 }
 
 #anmn-a::after {
+    content: "";
     background-color: white;
     height: 60px;
     width: 258px;
@@ -50,17 +57,16 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
-    margin: 0;
 }
 
 .more-info::after {
+    content: "";
     font-size: 50px;
     color: black;
     z-index: 1;
     position: absolute;
     left: 102px;
     bottom: 202px;
-    margin: 0;
 }
 
 .more-info:hover {
