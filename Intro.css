@@ -1,8 +1,9 @@
 body {
     background-color: black;
+    z-index: -100;
 }
 
-#more-info {
+.more-info {
     font-size: 50px;
     color: white;
     border: 2px solid white;
@@ -18,10 +19,10 @@ body {
 
 .about-intro {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     left: 100px;
-    top: 200px;
+    top: 190px;
 }
 
 #name {
@@ -33,7 +34,7 @@ body {
     background-color: white;
     height: 60px;
     width: 258px;
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -42,8 +43,8 @@ body {
     animation-duration: 2s;
 }
 
-anmn-a::before {
-    content: "Know More";
+#anmn-a::before {
+    content: "";
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -55,8 +56,17 @@ anmn-a::before {
     max-width: 258px;
 }
 
-anmn-a:hover {
+#anmn-a:hover {
     animation-play-state: running;
+}
+
+#anmn-a::after {
+    width: 258px;
+    height: 60px;
+    position: absolute;
+    left: 102px;
+    bottom: 202px;
+    z-index: -1;
 }
 
 @keyframes anmn-a {
@@ -77,4 +87,29 @@ anmn-a:hover {
     0% {color: white;}
     50% {color: gray;}
     100% {color: black;}
+}
+
+.more-info:hover {
+    animation-play-state: running;
+}
+
+.more-info::before {
+    content: "";
+    position: absolute;
+    left: 102px;
+    bottom: 202px;
+    font-size: 50px;
+    color: white;
+    z-index: 1;
+}
+
+.more-info::after {
+    border: 2px solid white;
+    display: inline;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    left: 102px;
+    bottom: 202px;
+    margin: 0;
 }
