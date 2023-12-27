@@ -34,10 +34,11 @@ body {
     background-color: white;
     height: 60px;
     width: 258px;
-    z-index: -1;
+    z-index: 0;
     position: absolute;
     left: 102px;
     bottom: 202px;
+    margin: 0;
     animation-name: anmn-a;
     animation-play-state: paused;
     animation-duration: 2s;
@@ -56,17 +57,43 @@ body {
     max-width: 258px;
 }
 
-#anmn-a:hover {
-    animation-play-state: running;
-}
-
 #anmn-a::after {
     width: 258px;
     height: 60px;
     position: absolute;
     left: 102px;
     bottom: 202px;
-    z-index: -1;
+    z-index: 0;
+}
+
+.more-info {
+    animation-play-state: running;
+}
+
+.more-info::before {
+    content: "";
+    position: absolute;
+    left: 102px;
+    bottom: 202px;
+    font-size: 50px;
+    color: white;
+    z-index: 0;
+}
+
+.more-info::after {
+    border: 2px solid white;
+    display: inline;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    left: 102px;
+    bottom: 202px;
+    z-index: 1;
+    margin: 0;
+}
+
+.more-info:hover + #anmn-a {
+    animation-play-state: running;
 }
 
 @keyframes anmn-a {
@@ -87,29 +114,4 @@ body {
     0% {color: white;}
     50% {color: gray;}
     100% {color: black;}
-}
-
-.more-info:hover {
-    animation-play-state: running;
-}
-
-.more-info::before {
-    content: "";
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-    font-size: 50px;
-    color: white;
-    z-index: 1;
-}
-
-.more-info::after {
-    border: 2px solid white;
-    display: inline;
-    color: black;
-    font-size: 50px;
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-    margin: 0;
 }
