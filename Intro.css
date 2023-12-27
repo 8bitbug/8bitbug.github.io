@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+#more-info {
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    left: 60px;
+}
+
+.about-intro {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+}
+
+#name {
+    color: red;
+    font-size: 31px;
+}
+
+.test {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 60px;
+}
+
+#test-2 {
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 60px;
+}
