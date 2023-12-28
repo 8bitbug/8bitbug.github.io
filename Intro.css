@@ -11,9 +11,10 @@ body {
     left: 102px;
     bottom: 202px;
     margin: 0;
+    z-index: 1;
     animation-name: h1color;
     animation-play-state: paused;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .about-intro {
@@ -33,23 +34,23 @@ body {
     background-color: white;
     height: 63px;
     width: 240px;
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
     animation-name: anmn-a;
     animation-play-state: paused;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 #anmn-a::before {
     content: "";
     height: 63px;
     width: 240px;
-    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
+    z-index: -1;
 }
 
 #more-info::before {
@@ -58,6 +59,7 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
+    margin: 0;
 }
 
 #anmn-a::after {
@@ -77,6 +79,7 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
+    margin: 0;
 }
 
 #more-info:hover {
