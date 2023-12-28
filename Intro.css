@@ -10,7 +10,7 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
-    margin: 0;
+    margin: 0px;
     z-index: 1;
     animation-name: h1color;
     animation-play-state: paused;
@@ -59,7 +59,7 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
-    margin: 0;
+    margin: 0px;
 }
 
 #anmn-a::after {
