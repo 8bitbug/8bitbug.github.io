@@ -7,26 +7,17 @@ body {
     font-size: 20px;
     position: absolute;
     top: 15px;
+    right: 682.5px;
     z-index: 1;
     margin: 0px;
     text-align: center;
-}
-
-#passion {
-    color: red;
-    font-size: 20px;
-    position: absolute;
-    top: 15px;
-    z-index: -1;
-    text-align: center;
-    margin: 0px;
 }
 
 #about-box {
     z-index: -1;
     background-color: #333;
     border: 1px solid #333;
-    border-radius: 25%;
+    border-radius: 5%;
     height: 50px;
     width: 1365px;
     position: absolute;
@@ -40,7 +31,7 @@ body {
     height: 300px;
     width: 300px;
     border: 1px solid #333;
-    border-radius: 25%;
+    border-radius: 5%;
     position: absolute;
     right: 200px;
     margin-bottom: 100px;
@@ -60,7 +51,7 @@ body {
     height: 300px;
     width: 1365px;
     border: 1px solid #333;
-    border-radius: 25%;
+    border-radius: 5%;
     z-index: -1;
     margin-top: 25px;
     position: absolute;
@@ -80,10 +71,10 @@ body {
     height: 300px;
     width: 300px;
     border: 1px solid #333;
-    border-radius: 25%;
+    border-radius: 5%;
     position: absolute;
     left: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     margin-top: 25px;
 }
 
@@ -111,6 +102,7 @@ body {
     z-index: 1;
     font-size: 25px;
     position: absolute;
-    bottom: 15px;
+    bottom: 5px;
+    right: 682.5px;
     text-align: center;
 }

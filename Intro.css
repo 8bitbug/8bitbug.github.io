@@ -34,7 +34,6 @@ body {
     background-color: white;
     height: 63px;
     width: 240px;
-    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -50,7 +49,6 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
-    z-index: -1;
 }
 
 #more-info::before {
@@ -66,7 +64,6 @@ body {
     background-color: white;
     height: 63px;
     width: 240px;
-    z-index: -1;
     position: absolute;
     left: 102px;
     bottom: 202px;
@@ -75,7 +72,6 @@ body {
 #more-info::after {
     font-size: 50px;
     color: black;
-    z-index: 1;
     position: absolute;
     left: 102px;
     bottom: 202px;
