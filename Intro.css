@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #111;
 }
 
 #more-info {
@@ -37,45 +37,10 @@ body {
     position: absolute;
     left: 102px;
     bottom: 202px;
+    z-index: -1;
     animation-name: anmn-a;
     animation-play-state: paused;
     animation-duration: 1s;
-}
-
-#anmn-a::before {
-    content: "";
-    height: 63px;
-    width: 240px;
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-}
-
-#more-info::before {
-    content: "";
-    font-size: 50px;
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-    margin: 0px;
-}
-
-#anmn-a::after {
-    background-color: white;
-    height: 63px;
-    width: 240px;
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-}
-
-#more-info::after {
-    font-size: 50px;
-    color: black;
-    position: absolute;
-    left: 102px;
-    bottom: 202px;
-    margin: 0;
 }
 
 #more-info:hover {
