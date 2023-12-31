@@ -9,11 +9,12 @@ body {
     display: inline;
     position: absolute;
     left: 102px;
-    bottom: 202px;
+    bottom: 150px;
     margin-top: 15px;
     animation-name: color;
+    animation-iteration-count: infinite;
     animation-play-state: paused;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 .about-intro {

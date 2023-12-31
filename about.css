@@ -7,6 +7,7 @@ body {
     font-size: 35px;
     position: absolute;
     top: 50px;
+    right: 682.5px;
     z-index: 1;
     margin: 0;
     text-align: center;
@@ -17,16 +18,30 @@ body {
     z-index: -1;
     position: absolute;
     top: 50px;
-    text-align: center;
+    right: 682.5px;
     height: 45px;
-    width: 100px;
+    width: 150px;
     border: black solid 1px;
-    border-radius: 15%;
+    border-radius: 25%;
 }
 
 #info {
     color: white;
-    font-size: 15px;
+    font-size: 25px;
+    z-index: 1;
     text-align: center;
-    margin-top: 100px;
+    position: absolute;
+    top: 200px;
+}
+
+#info-box {
+    background-color: black;
+    z-index: -1;
+    position: absolute;
+    right: 395px;
+    top: 200px;
+    height: 102px;
+    width: 1160px;
+    border: black 1px solid;
+    border-radius: 25%;
 }
