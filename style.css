@@ -1,108 +1,42 @@
 body {
-    background-color: #222;
+    background-color: #111;
 }
 
-#about {
+#more-info {
+    font-size: 50px;
     color: white;
-    font-size: 20px;
+    border: 2px white solid;
+    display: inline;
     position: absolute;
-    top: 15px;
-    right: 682.5px;
-    z-index: 1;
-    margin: 0px;
-    text-align: center;
+    left: 102px;
+    bottom: 202px;
+    margin-top: 15px;
+    animation-name: color;
+    animation-play-state: paused;
+    animation-duration: 1s;
 }
 
-#about-box {
-    z-index: -1;
-    background-color: #333;
-    border: 1px solid #333;
-    border-radius: 5%;
-    height: 50px;
-    width: 1365px;
-    position: absolute;
-    top: 0px;
-}
-
-#languages-box-1 {
-    background-color: #333;
-    border: 1px solid #333;
-    z-index: -1;
-    height: 300px;
-    width: 300px;
-    border: 1px solid #333;
-    border-radius: 5%;
-    position: absolute;
-    right: 200px;
-    margin-bottom: 100px;
-    margin-top: 25px;
-}
-
-#title-box-1 {
+.about-intro {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     position: absolute;
-    right: 200px;
-    margin-top: 150px;
+    left: 100px;
+    top: 190px;
 }
 
-#languages-box-3 {
-    background-color: #333;
-    height: 300px;
-    width: 1365px;
-    border: 1px solid #333;
-    border-radius: 5%;
-    z-index: -1;
-    margin-top: 25px;
-    position: absolute;
-    bottom: 150px;
+#name {
+    color: red;
+    font-size: 51px;
 }
 
-#title-box-3 {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-} 
-
-#languages-box-2 {
-    background-color: #333;
-    border: 1px solid #333;
-    z-index: -1;
-    height: 300px;
-    width: 300px;
-    border: 1px solid #333;
-    border-radius: 5%;
-    position: absolute;
-    left: 0px;
-    margin-bottom: 300px;
-    margin-top: 25px;
+#more-info:hover {
+    animation-play-state: running;
 }
 
-#title-box-2 {
-    color: white;
-    font-size: 40px;
-    position: absolute;
-    left: 0px;
-    margin-top: 150px;
-}
-
-#information-box {
-    background-color: #333;
-    border: #333 solid 1px;
-    border-radius: 25%;
-    height: 50px;
-    width: 1365px;
-    position: absolute;
-    bottom: 0px;
-    z-index: -1;
-}
-
-#information-contact {
-    color: white;
-    z-index: 1;
-    font-size: 25px;
-    position: absolute;
-    bottom: 5px;
-    right: 682.5px;
-    text-align: center;
+@keyframes color {
+    0% {color: white;}
+    25% {color: gray;}
+    50% {color: black;}
+    75% {color: grey;}
+    100% {color: white}
 }
