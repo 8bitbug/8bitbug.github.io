@@ -9,7 +9,7 @@ body {
     display: inline;
     position: absolute;
     left: 102px;
-    bottom: 50px;
+    bottom: 100px;
     animation-name: color;
     animation-iteration-count: infinite;
     animation-play-state: paused;
@@ -21,7 +21,8 @@ body {
     font-size: 60px;
     position: absolute;
     left: 100px;
-    top: 150px;
+    top: 190px;
+    margin-bottom: 50px;
 }
 
 #name {
