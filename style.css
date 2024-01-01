@@ -22,7 +22,7 @@ body {
     position: absolute;
     left: 100px;
     top: 190px;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 #name {
