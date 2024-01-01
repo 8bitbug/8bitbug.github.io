@@ -8,7 +8,7 @@ body {
     border: 2px white solid;
     display: inline;
     position: absolute;
-    left: 102px;
+    left: 100px;
     bottom: 100px;
     animation-name: color;
     animation-iteration-count: infinite;
