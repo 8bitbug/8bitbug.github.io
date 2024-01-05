@@ -8,8 +8,8 @@ body {
     border: 2px white solid;
     display: inline;
     position: absolute;
-    left: 100px;
-    bottom: 100px;
+    left: 50px;
+    bottom: 80px;
     animation-name: color;
     animation-iteration-count: infinite;
     animation-play-state: paused;

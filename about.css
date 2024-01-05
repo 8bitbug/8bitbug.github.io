@@ -22,7 +22,7 @@ body {
     height: 45px;
     width: 152px;
     border: #222 solid 1px;
-    border-radius: 25%;
+    border-radius: 5%;
 }
 
 #info {
@@ -33,38 +33,35 @@ body {
     top: 200px;
     right: 500px;
     background-position: center;
-    text-align: center;
+    text-align: right;
 }
 
 #info-box {
     background-color: #222;
     z-index: -1;
     position: absolute;
-    right: 500px;
+    right: 0px;
     top: 200px;
-    height: 102px;
+    height: 202px;
     width: 1160px;
     border: #222 1px solid;
-    border-radius: 15%;
-    background-position: center;
-    text-align: center;
 }
 
 #socials {
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
+    right: 682.5px;
     margin: 0;
     z-index: 1;
-    background-position: center;
-    text-align: center;
 }
 
 #socials-box {
     background-color: #222;
     position: absolute;
     bottom: 0px;
+    right: 0;
     height: 50px;
-    width: 1365px;
+    width: 1370px;
     border: #222 solid 1px;
     border-radius: 5%;
     z-index: -1;
@@ -74,13 +71,14 @@ body {
     color: white;
     font-size: 30px;
     position: absolute;
-    right: 200px;
+    left: 30px;
+    margin: 30px;
 }
 
 #languages-image {
     z-index: 1;
     position: absolute;
-    right: 200px;
+    left: 0px;
 }
 
 #languages-box {
@@ -89,5 +87,5 @@ body {
     border-radius: 5%;
     z-index: -1;
     position: absolute;
-    right: 200px;
+    left: 0px;
 }
