@@ -1,0 +1,69 @@
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Black_%26_Red_Flag.png');
+    background-size: cover;
+}
+
+#aboutMe {
+    position: absolute;
+    left: 50px;
+    bottom: 225px;
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+#aboutMeName {
+    color: red;
+}
+
+#button {
+    background-color: red;
+    border: red solid 2px;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 175px;
+    cursor: pointer;
+}
+
+#popup {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: none;
+    z-index: -1;
+}
+
+#moreAboutMe {
+    z-index: 1;
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    color: white;
+    margin: 10px;
+}
+
+#languageKnow {
+    height: 200px;
+    width: 200px;
+    display: none;
+    background-color: #222;
+    border: #222 solid 2px;
+    border-radius: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+}
+
+#closepopup {
+    background-color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+}
