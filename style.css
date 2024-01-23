@@ -19,7 +19,7 @@ body {
 
 #button {
     background-color: red;
-    border: red solid 2px;
+    border: red solid 1px;
     border-radius: 50px;
     font-size: 35px;
     color: white;
@@ -39,12 +39,19 @@ body {
 
 @keyframes buttonrgb {
     0% {background-color: red;}
+    0% {border: red;}
     14% {background-color: orangered;}
+    14% {border: orangered;}
     28% {background-color: yellow;}
+    28% {border: yellow;}
     42% {background-color: green;}
-    56% {background-color: blue;}
-    70% {background-color: indigo;}
-    100% {background-color: rgb(145, 60, 145);}
+    42% {border: green;}
+    56% {background-color: yellow;}
+    56% {border: yellow;}
+    70% {background-color: orangered;}
+    70% {border: orangered;}
+    100% {background-color: red;}
+    100% {border: red;}
 }
 
 #popup {
@@ -61,18 +68,19 @@ body {
     font-size: 20px;
     position: absolute;
     left: 50px;
-    bottom: 200px;
+    top: 10px;
     color: white;
     margin: 10px;
     background-color: #222;
     border: #222 solid 2px;
-    border-radius: 50px;
-    display: inline;
+    height: 100%;
+    display: none;
+    overflow: scroll;
 }
 
 #languageKnow {
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     display: none;
     background-color: #222;
     border: #222 solid 2px;
@@ -89,4 +97,5 @@ body {
     right: 0px;
     cursor: pointer;
     display: none;
+    color: white;
 }
