@@ -1,6 +1,5 @@
 body {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Black_%26_Red_Flag.png');
-    background-size: cover;
+    background-color: #111;
 }
 
 /*My popup might be bad*/
@@ -26,9 +25,26 @@ body {
     color: white;
     position: absolute;
     left: 100px;
-    bottom: 175px;
-    margin: 100px;
+    bottom: 150px;
     cursor: pointer;
+    animation-name: buttonrgb;
+    animation-duration: 5s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+
+#button:hover {
+    animation-play-state: running;
+}
+
+@keyframes buttonrgb {
+    0% {background-color: red;}
+    14% {background-color: orangered;}
+    28% {background-color: yellow;}
+    42% {background-color: green;}
+    56% {background-color: blue;}
+    70% {background-color: indigo;}
+    100% {background-color: rgb(145, 60, 145);}
 }
 
 #popup {
@@ -44,10 +60,14 @@ body {
     display: none;
     font-size: 20px;
     position: absolute;
-    left: 100px;
+    left: 50px;
     bottom: 200px;
     color: white;
     margin: 10px;
+    background-color: #222;
+    border: #222 solid 2px;
+    border-radius: 50px;
+    display: inline;
 }
 
 #languageKnow {
@@ -63,7 +83,6 @@ body {
 }
 
 #closepopup {
-    background-color: red;
     font-size: 25px;
     position: absolute;
     top: 0px;
