@@ -3,10 +3,12 @@ body {
     background-size: cover;
 }
 
+/*My popup might be bad*/
+
 #aboutMe {
     position: absolute;
     left: 50px;
-    bottom: 250px;
+    bottom: 300px;
     font-size: 50px;
     color: white;
     margin: 10px;
@@ -20,10 +22,12 @@ body {
     background-color: red;
     border: red solid 2px;
     border-radius: 50px;
+    font-size: 35px;
     color: white;
     position: absolute;
     left: 100px;
     bottom: 175px;
+    margin: 100px;
     cursor: pointer;
 }
 
