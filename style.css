@@ -63,24 +63,24 @@ body {
 }
 
 #moreAboutMe {
-    z-index: 1;
     display: none;
     font-size: 20px;
-    margin: 0;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    margin: 0px;
     color: white;
     background-color: #222;
     border: #222 solid 2px;
     height: 100%;
+    width: 300px;
     display: none;
     overflow: scroll;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #languageKnow {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     display: none;
     background-color: #222;
     border: #222 solid 2px;
@@ -88,6 +88,7 @@ body {
     position: absolute;
     right: 50px;
     bottom: 125px;
+    margin: 50px;
 }
 
 #closepopup {
