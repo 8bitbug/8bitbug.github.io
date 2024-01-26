@@ -2,7 +2,10 @@ body {
     background-color: #111;
 }
 
-/*My popup might be bad*/
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 #aboutMe {
     position: absolute;
@@ -19,7 +22,7 @@ body {
 
 #button {
     background-color: red;
-    border: red solid 1px;
+    border: red solid 5px;
     border-radius: 50px;
     font-size: 40px;
     color: white;
@@ -72,23 +75,22 @@ body {
     height: 100%;
     width: 300px;
     display: none;
-    overflow: scroll;
+    overflow-y: scroll;
     position: absolute;
     left: 0px;
     top: 0px;
 }
 
 #languageKnow {
-    height: 200px;
-    width: 200px;
+    height: 450px;
+    width: 450px;
     display: none;
     background-color: #222;
     border: #222 solid 2px;
     border-radius: 50px;
     position: absolute;
-    right: 50px;
-    bottom: 125px;
-    margin: 50px;
+    right: 100px;
+    bottom: 250px;
 }
 
 #closepopup {
