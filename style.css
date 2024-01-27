@@ -24,12 +24,13 @@ body {
     background-color: red;
     border: red solid 10px;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     position: absolute;
-    left: 100px;
+    left: 50px;
     bottom: 150px;
     cursor: pointer;
+    display: inline;
     animation-name: buttonrgb;
     animation-duration: 2s;
     animation-play-state: paused;
@@ -43,16 +44,16 @@ body {
 @keyframes buttonrgb {
     0% {background-color: red;}
     0% {border: red;}
-    14% {background-color: orangered;}
-    14% {border: orangered;}
-    28% {background-color: yellow;}
-    28% {border: yellow;}
-    42% {background-color: green;}
-    42% {border: green;}
-    56% {background-color: yellow;}
-    56% {border: yellow;}
-    70% {background-color: orangered;}
-    70% {border: orangered;}
+    20% {background-color: orangered;}
+    20% {border: orangered;}
+    40% {background-color: yellow;}
+    40% {border: yellow;}
+    60% {background-color: green;}
+    60% {border: green;}
+    80% {background-color: yellow;}
+    80% {border: yellow;}
+    90% {background-color: orangered;}
+    90% {border: orangered;}
     100% {background-color: red;}
     100% {border: red;}
 }
@@ -82,8 +83,8 @@ body {
 }
 
 #languageKnow {
-    height: 350px;
-    width: 350px;
+    height: 335px;
+    width: 335px;
     display: none;
     background-color: #222;
     border: #222 solid 2px;
@@ -102,4 +103,120 @@ body {
     display: none;
     color: white;
     margin: 0px;
+}
+
+#extrabuttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#contactbutton {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: 5px;
+    flex: auto;
+    cursor: pointer;
+    animation-name: contactrgb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+#contactbutton:hover {
+    animation-play-state: running;
+}
+
+@keyframes contactrgb {
+    0% {background-color: red;}
+    0% {border: red;}
+    25% {background-color: green;}
+    25% {border: green;}
+    50% {background-color: blue;}
+    50% {border: blue;}
+    75% {background-color: green;}
+    75% {border: green;}
+    100% {background-color: red;}
+    100% {border: red;}
+}
+
+#blogbutton {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: 5px;
+    flex: auto;
+    cursor: pointer;
+    animation-name: blogrgb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+#blogbutton:hover {
+    animation-play-state: running;
+}
+
+@keyframes blogrgb {
+    0% {background-color: red;}
+    0% {border: red;}
+    25% {background-color: green;}
+    25% {border: green;}
+    50% {background-color: blue;}
+    50% {border: blue;}
+    75% {background-color: green;}
+    75% {border: green;}
+    100% {background-color: red;}
+    100% {border: red;}
+}
+
+#githubbutton {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: 5px;
+    flex: auto;
+    cursor: pointer;
+    animation-name: githubrgb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+#githubbutton:hover {
+    animation-play-state: running;
+}
+
+@keyframes githubrgb {
+    0% {background-color: red;}
+    0% {border: red;}
+    25% {background-color: green;}
+    25% {border: green;}
+    50% {background-color: blue;}
+    50% {border: blue;}
+    75% {background-color: green;}
+    75% {border: green;}
+    100% {background-color: red;}
+    100% {border: red;}
+}
+
+#contactbuttoncontent {
+    display: none;
+    height: 400px;
+    width: 400px;
+    overflow-y: scroll;
+    background-color: #222;
+    color: black;
+    border: 1px solid #222;
+    border-radius: 50px;
+    font-size: 25px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
