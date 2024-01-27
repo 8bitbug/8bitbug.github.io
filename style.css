@@ -120,6 +120,7 @@ body {
     font-size: 25px;
     margin: 5px;
     flex: auto;
+    color: white;
     cursor: pointer;
     animation-name: contactrgb;
     animation-duration: 3s;
@@ -151,6 +152,7 @@ body {
     font-size: 25px;
     margin: 5px;
     flex: auto;
+    color: white;
     cursor: pointer;
     animation-name: blogrgb;
     animation-duration: 3s;
@@ -182,6 +184,7 @@ body {
     font-size: 25px;
     margin: 5px;
     flex: auto;
+    color: white;
     cursor: pointer;
     animation-name: githubrgb;
     animation-duration: 3s;
@@ -212,7 +215,7 @@ body {
     width: 400px;
     overflow-y: scroll;
     background-color: #222;
-    color: black;
+    color: white;
     border: 1px solid #222;
     border-radius: 50px;
     font-size: 25px;

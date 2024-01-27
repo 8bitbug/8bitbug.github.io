@@ -13,7 +13,7 @@ let contactcontent = document.getElementById('contactbuttoncontent');
 
 //Opens the popup
 
-button.onclick = function popup() {
+button.onclick = function openpopup() {
     button.style.display='none';
     aboutMe.style.display='none';
     contactbutton.style.display='none';
@@ -27,7 +27,7 @@ button.onclick = function popup() {
 
 //Closes the popup
 
-closepopup.onclick = function closespopups() {
+closepopup.onclick = function closepopup() {
     button.style.display='block';
     aboutMe.style.display='block';
     moreAboutMe.style.display='none'
@@ -40,7 +40,7 @@ closepopup.onclick = function closespopups() {
     contactcontent.style.display='none';
 };
 
-contactbutton.onclick = function() {
+contactbutton.onclick = function openContactcontent() {
     button.style.display='none';
     aboutMe.style.display='none';
     closepopup.style.display='block';
@@ -50,6 +50,6 @@ contactbutton.onclick = function() {
     contactcontent.style.display='block';
 };
 
-githubbutton.onclick = function() {
+githubbutton.onclick = function opengithub() {
     window.open('https://github.com/8bitbug', '_blank');
 };
