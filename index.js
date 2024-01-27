@@ -18,4 +18,4 @@ document.getElementById('closepopup').onclick = function closespopup() {
     document.getElementById('popup').style.display='none';
     document.getElementById('languageKnow').style.display='none';
     document.getElementById('closepopup').style.display='none';
-}
+};
