@@ -12,4 +12,5 @@ githubbutton.onclick = function() {
 if (width < widthMax && height < heightMax) {
     document.getElementById('navigation').style.width='360px';
     document.getElementById('navbuttons').style.right='10px';
+    alert('Hello looks like you are on your phone. this website is not optimised for mobile yet so expect bugs.')
 };
